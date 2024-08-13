@@ -19,6 +19,7 @@ body {
 }
 #logo {
     width: 45px;
+    height: 45px;
     padding-left: 10px;
     padding-right: 7px;
 }
@@ -28,10 +29,51 @@ body {
     font-size: 30px;
 }
 
-#top_block {
+#top_section {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+}
+#top_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+#search {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: center;
+}
+#search_icon {
+    width: 20px;
+    height: 20px;
+}
+#search_bar {
+    width: 300px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 10px;
+}
+#top-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-content: center;
+}
+#bell_icon {
+    width: 20px;
+}
+#profile_icon_top {
+    width: 50px;
+    border-radius: 50px;
+}
+#bottom_block {
+    display: flex;
+    flex-direction: row;
 }
 
 #main {
