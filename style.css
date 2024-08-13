@@ -11,6 +11,22 @@ body {
     display: grid;
     border: 1px solid blue;
 }
+.company {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+#logo {
+    width: 45px;
+    padding-left: 10px;
+    padding-right: 7px;
+}
+.company_name {
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+}
 
 #top_block {
     grid-column: 2 / 3;
