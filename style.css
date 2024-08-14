@@ -41,7 +41,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
+    padding: 15px 40px;
 }
 #search {
     display: flex;
@@ -71,7 +71,7 @@ body {
     width: 20px;
 }
 #profile_icon_top {
-    width: 50px;
+    width: 40px;
     border-radius: 50px;
 }
 #name_top {
@@ -82,6 +82,45 @@ body {
 #bottom_block {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+#left_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+}
+#profile_icon {
+    width: 60px;
+    border-radius: 50px;
+}
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#hi { 
+    margin: 0;
+    font-size: small;
+    font-weight: 800;
+}
+#name {
+    font-size: x-large;
+    font-weight: 800;
+    margin: 0;
+}
+#actions {
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+}
+#actions > div {
+    background-color: blue;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 20px;
 }
 
 #main {
