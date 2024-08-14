@@ -39,30 +39,33 @@ body {
 #top_block {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
 }
 #search {
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 2;
 }
 #search_icon {
     width: 20px;
     height: 20px;
 }
 #search_bar {
-    width: 300px;
+    width: 40rem;
     height: 30px;
-    background-color: grey;
+    background-color: lightgray;
     border-radius: 10px;
 }
-#top-right {
+#top_right {
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 13rem;
 }
 #bell_icon {
     width: 20px;
@@ -70,6 +73,11 @@ body {
 #profile_icon_top {
     width: 50px;
     border-radius: 50px;
+}
+#name_top {
+    margin: 0;
+    font-weight: 800;
+    font-size: large;
 }
 #bottom_block {
     display: flex;
