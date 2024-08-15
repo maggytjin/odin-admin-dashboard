@@ -127,8 +127,32 @@ body {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     border: 1px solid orange;
+    display: grid;
+    grid-template-columns: 2fr 0.5fr;
+    grid-template-rows: 1fr 1fr;
+}
+#left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 25px;
 }
 
-.menu > ul > li { 
-    text-decoration: none;
+#right { 
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+.card {
+    border: 5px solid purple;
+    border-radius: 10px;
+    border-left-color: orange;
+    padding-left: 30px;
+    width: 24rem;
+}
+.heading1 {
+    font-size: x-large;
 }
