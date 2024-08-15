@@ -134,25 +134,44 @@ body {
 #left {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
+    padding: 30px 20px;
 }
 #grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 25px;
+    margin: 0;
+}
+.projects {
+    margin: 0;
+    padding-bottom: 10px;
+}
+.card {
+    border: 5px solid purple;
+    border-radius: 10px;
+    border-left-color: orange;
+    padding: 1.5rem 1rem;
+    width: 24rem;
+}
+.heading {
+    font-size: larger;
+    padding-bottom: 4px;
+}
+.card_text {
+    margin: 0;
+    padding-bottom: 20px;
+}
+.card_icons {
+    display: flex; 
+    justify-content: flex-end;
 }
 
 #right { 
     grid-column: 2 / 3;
     grid-row: 1 / 3;
 }
-.card {
-    border: 5px solid purple;
-    border-radius: 10px;
-    border-left-color: orange;
-    padding-left: 30px;
-    width: 24rem;
-}
+
 .heading1 {
     font-size: x-large;
 }
