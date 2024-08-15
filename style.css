@@ -128,8 +128,9 @@ body {
     grid-row: 2 / 3;
     border: 1px solid orange;
     display: grid;
-    grid-template-columns: 2fr 0.5fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+    background-color: rgba(235, 236, 238, 0.758);
 }
 #left {
     grid-column: 1 / 2;
@@ -148,11 +149,14 @@ body {
     padding-bottom: 10px;
 }
 .card {
-    border: 5px solid purple;
-    border-radius: 10px;
+    border: 5px solid transparent;
+    border-radius: 6px;
     border-left-color: orange;
+    border-left-width: 6px;
     padding: 1.5rem 1rem;
     width: 24rem;
+    box-shadow: 5px 5px 5px lightgrey;
+    background-color: white;
 }
 .heading {
     font-size: larger;
@@ -165,6 +169,9 @@ body {
 .card_icons {
     display: flex; 
     justify-content: flex-end;
+}
+.card_icons > img {
+    padding-left: 24px;
 }
 
 #right { 
