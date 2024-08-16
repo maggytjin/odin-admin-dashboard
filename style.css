@@ -73,6 +73,7 @@ body {
 #profile_icon_top {
     width: 40px;
     border-radius: 50px;
+    background-color: grey;
 }
 #name_top {
     margin: 0;
@@ -95,11 +96,13 @@ body {
 #profile_icon {
     width: 60px;
     border-radius: 50px;
+    background-color: grey;
 }
 #intro {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-left: 15px;
 }
 #hi { 
     margin: 0;
@@ -206,4 +209,24 @@ body {
 }
 .heading1 {
     font-size: x-large;
+}
+#trending_section { 
+    background-color: white;
+    border-radius: 6px;
+}
+.trending_icon { 
+    width: 40px;
+    border-radius: 50%;
+}
+.dog {
+    background-color: rgb(255, 4, 0);
+}
+.bunny { 
+    background-color: grey;
+}
+.ape {
+    background-color: rgb(47, 255, 78);
+}
+.elephant {
+    background-color: rgb(255, 111, 0);
 }
