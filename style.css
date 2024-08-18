@@ -3,6 +3,8 @@ body {
     display: grid;
     grid-template-columns: 0.8fr 4fr;
     grid-template-rows: 1fr 5fr;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
 }
 
 #sidebar {
@@ -119,7 +121,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 23rem;
+    width: 25rem;
 }
 #profile_icon {
     width: 60px;
